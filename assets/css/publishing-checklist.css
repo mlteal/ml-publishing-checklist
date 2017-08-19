@@ -1,0 +1,134 @@
+
+.submitbox #requirements_list {
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	padding: 10px 0 15px 10px;
+}
+
+.submitbox #requirements_list h4 {
+	margin: 1em 0;
+}
+
+.submitbox #requirements_list span.reqcb {
+	padding: 1px 0;
+	display: block;
+}
+
+.submitbox #requirements_list input[type=checkbox] {
+	display: none;
+}
+
+.submitbox #requirements_list .list {
+	margin-bottom: -18px;
+}
+
+.submitbox #requirements_list label + a.tooltip {
+	color: #9a9a9a;
+}
+
+.submitbox #requirements_list input[type=checkbox] + label {
+	/*background: #fff282;*/
+	color: #f44336;
+	cursor: default;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 17px;
+	margin: 1px 5px 2px 0;
+	padding: 0 4px 0 0;
+}
+
+.submitbox #requirements_list input[type=checkbox] + label:before {
+	color: #f44336;
+	content: "\f534";
+	cursor: default;
+	display: inline-block;
+	font-family: "Dashicons";
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 11px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.submitbox #requirements_list .optional input[type=checkbox] + label,
+.submitbox #requirements_list .optional input[type=checkbox] + label:before {
+	color: #848484;
+}
+
+/* change label color based on value */
+.submitbox #requirements_list input[type=checkbox]:checked + label {
+	background: transparent;
+	color: #009711;
+	font-weight: normal;
+}
+
+.submitbox #requirements_list input[type=checkbox]:checked + label:before,
+.submitbox #requirements_list .editable input[type=checkbox]:checked + label:before {
+	color: #009711;
+	content: "\f147";
+	display: inline-block;
+	font-family: "Dashicons";
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 11px;
+	padding: 0;
+	margin: 0 6px 0 0;
+	vertical-align: middle;
+}
+
+.submitbox #requirements_list .editable input[type=checkbox],
+.submitbox #requirements_list .editable input[type=checkbox]:checked,
+.submitbox #requirements_list .editable input[type=checkbox] + label,
+.submitbox #requirements_list .editable input[type=checkbox]:checked + label {
+	display: inline-block;
+}
+
+.submitbox #requirements_list .editable input[type=checkbox] + label:before,
+.submitbox #requirements_list .editable input[type=checkbox]:checked + label:before {
+	content: '';
+}
+
+.submitbox #requirements_list #builtin-taxonomies {
+	margin-top: 10px;
+}
+
+.submitbox #requirements_list #custom-taxonomies {
+	margin-top: 10px;
+}
+
+.submitbox #requirements_list span#rlbot {
+	padding-top: 10px;
+	display: block;
+	color: #aa0000;
+}
+
+.submitbox #requirements_list.hidden {
+	display: none;
+	border-top: 0px solid #eeeeee !important;
+	padding: 0px !important;
+}
+
+#ml_pc_completed,
+#ml_pc_opt_completed {
+	background: #aa412f;
+	border-radius: 14px;
+	color: #ffffff;
+	display: inline-block;
+	margin-right: 6px;
+	padding: 1px 7px;
+}
+
+#ml_pc_completed.complete,
+#ml_pc_opt_completed.complete {
+	background: #177b42;
+}
+
+#ml_pc_completed:empty,
+#ml_pc_opt_completed:empty {
+	display: none;
+}
+
+#ml_pc_opt_completed {
+	font-size: 12px;
+}

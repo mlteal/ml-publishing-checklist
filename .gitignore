@@ -1,0 +1,7 @@
+#block IDE files
+.idea/*
+#block data files
+*.sql
+*.zip
+#block OSX DS_Store
+.DS_Store
