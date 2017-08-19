@@ -1,13 +1,13 @@
 <?php
 /*
- * Plugin Name: ML Writers Checklist
+ * Plugin Name: ML Publishing Checklist
  * Plugin URI: https://github.com/mlteal/ml-publishing-checklist
- * Description: Adds a javascript-enforced checklist by the post publish meta box. Validates some Post fields by default and can be extended to validate other custom fields via filters.
+ * Description: Adds a javascript-enforced publishing checklist by the post publish meta box. Validates some Post fields by default and can be extended to validate other custom fields via filters.
  * Author: mlteal
  * Version: 1.0.0
  * Author URI:
  * License: GPL2+
- * Text Domain: ml_wc
+ * Text Domain: ml_pc
  *
  * GitHub Plugin URI: https://github.com/mlteal/ml-publishing-checklist
  * GitHub Branch: master

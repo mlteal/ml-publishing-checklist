@@ -1,6 +1,6 @@
 <?php
 /**
- * The Writers Checklist edit screen functions
+ * The Publishing Checklist edit screen functions
  *
  * Many pieces forked from the Post Type Requirements Checklist by David Winter
  * (https://wordpress.org/plugins/post-type-requirements-checklist/)

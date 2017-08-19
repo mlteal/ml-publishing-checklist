@@ -15,3 +15,6 @@ Checklist items can be added or modified via the `ml_registered_checklist_items`
 
 The array passed via the contains the key => attributes array for each item. This format must 
 be maintained and returned for the checklist items to be found and available. 
+
+
+Forked from/inspired by the Post Type Requirements Checklist by David Winter (https://wordpress.org/plugins/post-type-requirements-checklist/)
